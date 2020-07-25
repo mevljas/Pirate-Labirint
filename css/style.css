@@ -1,0 +1,164 @@
+@font-face {
+    font-family: BlackPearl;
+    src: url(BlackPearl.ttf);
+}
+*{
+    font-family: BlackPearl;
+}
+body{
+    height: 900px;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    margin-top: 0;
+}
+#container{
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+    max-width: 1700px;
+}
+#canvas {
+    position: absolute;
+    right: 3%;
+    border: 5px solid #ECA24B;
+    height: 800px;
+    opacity: 0.8;
+}
+.menu{
+    background-color: #F7C264;
+    height: 800px;
+    border: 5px solid #ECA24B;
+    position: absolute;
+    width: 25%;
+    font-size: 28px;
+}
+#stats{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+input{
+    font-size: 20px;
+}
+#buttons{
+    position: relative;
+    left: 15%;
+}
+button{
+    border-radius: 25px;
+    color: black;
+    background-color: #ECA040;
+    border: none;
+    font-size: 26px;
+}
+#buttons button{
+    padding: 5%;
+    width: 70%;
+    margin-top: 10%;
+}
+button:hover{
+    background-color: #E69307;
+}
+.modal button{
+    padding: 1%;
+    width: 30%;
+    margin-top: 2%;
+}
+/* The Modal (background) black background */
+.modal {
+    font-size: 20px;
+    display: none;
+   /* Hidden by default */
+    position: fixed;
+   /* Stay in place */
+    z-index: 1;
+   /* Sit on top */
+    padding-top: 10%;
+   /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+   /* Full width */
+    height: 100%;
+   /* Full height */
+    background-color: rgba(0,0,0,0.4);
+   /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #F7C264;
+    margin: auto;
+   /* center middle*/
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    text-align: center;
+    padding-bottom: 1%;
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+       top:-300px;
+        opacity:0
+   }
+    to {
+       top:0;
+        opacity:1
+   }
+}
+@keyframes animatetop {
+    from {
+       top:-300px;
+        opacity:0
+   }
+    to {
+       top:0;
+        opacity:1
+   }
+}
+/* The Close Button */
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.close:hover, .close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-header {
+    padding: 2px 16px;
+    background-color: #F7C264;
+    color: white;
+}
+.modal-body {
+   padding: 2px 16px;
+}
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #F7C264;
+    color: black;
+    text-align: center;
+}
+#title{
+    top:0;
+    position: relative;
+    left: 40%;
+}
+h1{
+    position: absolute;
+    top:5%;
+    left: 42%;
+}
+h2{
+    color: black;
+}
