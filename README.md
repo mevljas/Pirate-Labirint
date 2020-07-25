@@ -4,4 +4,4 @@ Web game that generates a random maze and can also solve it. Goal is to sink all
 Game is made using HTML, CSS and JavaScript.  
   
     
-![Image](hhttps://github.com/mevljas/Pirate-Labirint/blob/master/image.png)
+![Image](https://github.com/mevljas/Pirate-Labirint/blob/master/image.png)
