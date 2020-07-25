@@ -8,4 +8,4 @@ Game is made using HTML, CSS and JavaScript.
   
   
   
-You can check it out [here](https://mevljas.github.io/Pirate-Labirint/)
+You can check it out [here](https://mevljas.github.io/Pirate-Labirint/).
