@@ -5,3 +5,7 @@ Game is made using HTML, CSS and JavaScript.
   
     
 ![Image](https://github.com/mevljas/Pirate-Labirint/blob/master/image.png)
+  
+  
+  
+You can check it out [here](https://mevljas.github.io/Pirate-Labirint/)
